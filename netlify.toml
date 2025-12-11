@@ -1,5 +1,6 @@
 [build]
-  command = "npm run build"
+  command = "npm ci --legacy-peer-deps && npm run build"
   publish = "out"
 
-# If you prefer to publish the .next folder for serverless Next builds, change publish accordingly.
+[build.environment]
+  NODE_ENV = "production"
