@@ -1,0 +1,5 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# If you prefer to publish the .next folder for serverless Next builds, change publish accordingly.
